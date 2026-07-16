@@ -40,7 +40,7 @@ export function Raportet({ company, invoices, role }: { company: Company; invoic
         <Card className="p-5">
           <p className="text-xs text-slate-600 leading-relaxed">
             Kjo kompani nuk është e regjistruar në TVSH. TVSH-ja e faturave hyrëse nuk zbritet — regjistrohet
-            direkt si kosto e biznesit. Nuk ka deklaratë TVSH për t'u dorëzuar.
+            direkt si kosto e biznesit. Nuk ka deklaratë TVSH për t&apos;u dorëzuar.
           </p>
           <div className="mt-4 grid grid-cols-2 gap-4">
             <div className="p-3 bg-slate-50 border border-slate-100 rounded-lg">

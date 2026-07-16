@@ -152,7 +152,7 @@ export function Rrogat({ role, rrogat, onAdd, onEdit, onDelete }: RrogatProps) {
                     <td className="px-4 py-2.5 font-semibold text-slate-700">{r.punonjesi}</td>
                     <td className="px-4 py-2.5 text-slate-500">{r.pozita}</td>
                     {r.bruto === 0 ? (
-                      <td colSpan={5} className="px-4 py-2.5 text-slate-400 italic">Rroga s'është caktuar ende nga pronari i biznesit</td>
+                      <td colSpan={5} className="px-4 py-2.5 text-slate-400 italic">Rroga s&apos;është caktuar ende nga pronari i biznesit</td>
                     ) : (
                       <>
                         <td className="px-4 py-2.5 text-right font-mono text-slate-600">{fmt(r.bruto)}</td>
